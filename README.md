@@ -31,6 +31,11 @@ Return the optimal Q-values, state-value function, and policy.
 ## MONTE CARLO CONTROL FUNCTION
 
 ```
+NAME:NIVETHA.K
+REG NO:212222230102
+```
+
+```
 from tqdm import tqdm
 def mc_control(env, gamma = 1.0, init_alpha = 0.5, min_alpha = 0.01,
                alpha_decay_ratio = 0.5, init_epsilon = 1.0, min_epsilon = 0.1,
@@ -75,7 +80,9 @@ print_policy(pi, P)
 ```
 
 ## OUTPUT:
-Mention the optimal policy, optimal value function , success rate for the optimal policy.
+
+![Screenshot 2024-05-09 211608](https://github.com/NivethaKumar30/monte-carlo-control/assets/119559844/27f960b7-8320-415b-a0c1-2c0627f07124)
+
 
 ## RESULT:
 
